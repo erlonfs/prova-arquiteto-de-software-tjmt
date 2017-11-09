@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="EventHandling\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EnjoyCQRS" Version="3.0.2" />
+  </ItemGroup>
+
+</Project>

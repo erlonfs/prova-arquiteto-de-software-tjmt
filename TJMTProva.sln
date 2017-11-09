@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TJMT.Prova.Write.Domain", "TJMT.Prova.Write.Domain\TJMT.Prova.Write.Domain.csproj", "{0D0A7DB4-CB5A-4DB4-91F5-336597401AB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E8FD8D1-0B3D-4027-A76B-62D8BC9D4B79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{5606B5BB-675C-46F8-A5A5-ED3FDB5F5581}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\001.sql = scripts\001.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7274C807-7C77-4EE5-BAA8-2EC1E8155584}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TJMT.Prova.Write.Domain.Test", "TJMT.Prova.Write.Domain.Test\TJMT.Prova.Write.Domain.Test.csproj", "{63435F2C-5F5A-4A34-8DF8-2DE233F0E7FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TJMT.Prova.Write.Api", "TJMT.Prova.Write.Api\TJMT.Prova.Write.Api.csproj", "{3EC846F2-4408-43EB-B3CB-20ECF3E0D599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TJMT.Prova.Read.Api", "TJMT.Prova.Read.Api\TJMT.Prova.Read.Api.csproj", "{904122A7-D038-4678-A784-226AB42A31F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TJMT.Prova.Read.Infraestructure.EF", "TJMT.Prova.Read.Infraestructure.EF\TJMT.Prova.Read.Infraestructure.EF.csproj", "{407DE600-DCC8-46E1-A8D3-A7E6F424F724}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TJMT.Prova.Write.Commands", "TJMT.Prova.Write.Command\TJMT.Prova.Write.Commands.csproj", "{11294F4B-75D3-4DBA-9342-141E8268BDDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TJMT.Prova.Read.EventHandlers", "TJMT.Prova.Read.EventHandlers\TJMT.Prova.Read.EventHandlers.csproj", "{360AB53C-4508-46FE-9AC2-C4033157F2D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TJMT.Prova.Infraestucture", "TJMT.Prova.Infraestucture\TJMT.Prova.Infraestucture.csproj", "{8DFC1A76-4AFB-41BE-AE42-662C3A33D228}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TJMT.Prova.AplicationEvents.EventHandler", "TJMT.Prova.AplicationEvents.EventHandler\TJMT.Prova.AplicationEvents.EventHandler.csproj", "{EF33968D-914A-4BB4-A33E-6D6966816FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TJMT.Prova.AplicationEvents.ServiceHost", "TJMT.Prova.AplicationEvents.ServiceHost\TJMT.Prova.AplicationEvents.ServiceHost.csproj", "{912C450F-9B69-449E-966A-080F44A19C44}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D0A7DB4-CB5A-4DB4-91F5-336597401AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0A7DB4-CB5A-4DB4-91F5-336597401AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0A7DB4-CB5A-4DB4-91F5-336597401AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0A7DB4-CB5A-4DB4-91F5-336597401AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63435F2C-5F5A-4A34-8DF8-2DE233F0E7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63435F2C-5F5A-4A34-8DF8-2DE233F0E7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63435F2C-5F5A-4A34-8DF8-2DE233F0E7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63435F2C-5F5A-4A34-8DF8-2DE233F0E7FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC846F2-4408-43EB-B3CB-20ECF3E0D599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC846F2-4408-43EB-B3CB-20ECF3E0D599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC846F2-4408-43EB-B3CB-20ECF3E0D599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC846F2-4408-43EB-B3CB-20ECF3E0D599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{904122A7-D038-4678-A784-226AB42A31F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{904122A7-D038-4678-A784-226AB42A31F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{904122A7-D038-4678-A784-226AB42A31F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{904122A7-D038-4678-A784-226AB42A31F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407DE600-DCC8-46E1-A8D3-A7E6F424F724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407DE600-DCC8-46E1-A8D3-A7E6F424F724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407DE600-DCC8-46E1-A8D3-A7E6F424F724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407DE600-DCC8-46E1-A8D3-A7E6F424F724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11294F4B-75D3-4DBA-9342-141E8268BDDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11294F4B-75D3-4DBA-9342-141E8268BDDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11294F4B-75D3-4DBA-9342-141E8268BDDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11294F4B-75D3-4DBA-9342-141E8268BDDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{360AB53C-4508-46FE-9AC2-C4033157F2D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{360AB53C-4508-46FE-9AC2-C4033157F2D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{360AB53C-4508-46FE-9AC2-C4033157F2D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{360AB53C-4508-46FE-9AC2-C4033157F2D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DFC1A76-4AFB-41BE-AE42-662C3A33D228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DFC1A76-4AFB-41BE-AE42-662C3A33D228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DFC1A76-4AFB-41BE-AE42-662C3A33D228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DFC1A76-4AFB-41BE-AE42-662C3A33D228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF33968D-914A-4BB4-A33E-6D6966816FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF33968D-914A-4BB4-A33E-6D6966816FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF33968D-914A-4BB4-A33E-6D6966816FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF33968D-914A-4BB4-A33E-6D6966816FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{912C450F-9B69-449E-966A-080F44A19C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{912C450F-9B69-449E-966A-080F44A19C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{912C450F-9B69-449E-966A-080F44A19C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{912C450F-9B69-449E-966A-080F44A19C44}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0D0A7DB4-CB5A-4DB4-91F5-336597401AB1} = {4E8FD8D1-0B3D-4027-A76B-62D8BC9D4B79}
+		{63435F2C-5F5A-4A34-8DF8-2DE233F0E7FE} = {7274C807-7C77-4EE5-BAA8-2EC1E8155584}
+		{3EC846F2-4408-43EB-B3CB-20ECF3E0D599} = {4E8FD8D1-0B3D-4027-A76B-62D8BC9D4B79}
+		{904122A7-D038-4678-A784-226AB42A31F4} = {4E8FD8D1-0B3D-4027-A76B-62D8BC9D4B79}
+		{407DE600-DCC8-46E1-A8D3-A7E6F424F724} = {4E8FD8D1-0B3D-4027-A76B-62D8BC9D4B79}
+		{11294F4B-75D3-4DBA-9342-141E8268BDDD} = {4E8FD8D1-0B3D-4027-A76B-62D8BC9D4B79}
+		{360AB53C-4508-46FE-9AC2-C4033157F2D8} = {4E8FD8D1-0B3D-4027-A76B-62D8BC9D4B79}
+		{8DFC1A76-4AFB-41BE-AE42-662C3A33D228} = {4E8FD8D1-0B3D-4027-A76B-62D8BC9D4B79}
+		{EF33968D-914A-4BB4-A33E-6D6966816FD8} = {4E8FD8D1-0B3D-4027-A76B-62D8BC9D4B79}
+		{912C450F-9B69-449E-966A-080F44A19C44} = {4E8FD8D1-0B3D-4027-A76B-62D8BC9D4B79}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3999195-C27F-47B2-98CD-AFA699C76F8C}
+	EndGlobalSection
+EndGlobal

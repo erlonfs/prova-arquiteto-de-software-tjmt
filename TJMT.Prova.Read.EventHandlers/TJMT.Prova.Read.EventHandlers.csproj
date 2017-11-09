@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EnjoyCQRS" Version="3.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TJMT.Prova.Infraestucture\TJMT.Prova.Infraestucture.csproj" />
+    <ProjectReference Include="..\TJMT.Prova.Read.Infraestructure.EF\TJMT.Prova.Read.Infraestructure.EF.csproj" />
+    <ProjectReference Include="..\TJMT.Prova.Write.Domain\TJMT.Prova.Write.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
